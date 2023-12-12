@@ -69,6 +69,10 @@ while True:
             quit()
         
         fin = input('\nDone?\n')
+        if fin.lower() == 'yes':
+            quit()
+        else:
+            break
 
        
             
